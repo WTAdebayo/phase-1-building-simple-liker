@@ -3,8 +3,21 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('Everything has loaded!')
+  
+})
 
+//hide error modal
+const errorModal = document.querySelector('#modal')
+errorModal.className = "hidden"
+ 
+//when user clicks on empty heart invoke mimicServerCall
+const likeBtn = document.querySelectorAll('.like-glyph')
+console.log(likeBtn)
+//likeBtn.addEventListener('click' (event) => {
 
+//})
 
 
 //------------------------------------------------------------------------------
